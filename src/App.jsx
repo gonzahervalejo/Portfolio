@@ -10,9 +10,9 @@ function App() {
       <Navbar />
       <section className="flex items-start justify-between p-10 max-w-screen-xl mx-auto px-10 mt-36">
         <div className="text-left max-w-lg">
-          <h1 className="text-6xl font-bold text-white mb-2">Hola!</h1>
+          <h1 className="text-6xl font-bold text-white mb-2 ">Hola!</h1>
           <h2 className="text-5xl font-semibold text-white mb-5">
-            Soy Gonzalo Hervalejo!
+            Soy Gonzalo Hervalejo
           </h2>
           <h3 className="text-4xl text-lime-600 font-semibold mb-5">
             Desarrollador web
@@ -36,13 +36,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <p className="text-xl">
-            Busco adquirir nuevos conocimientos y mejorar mis habilidades con el
-            objetivo de poder desarrollarme profesionalmente dentro del ambito
-            laboral. Mi compromiso es crear soluciones digitales que cumplan con
-            los más altos estándares. Estoy ansioso por desafiar y superar
-            expectativas en el desarrollo web.
-          </p> */
-}
