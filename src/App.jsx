@@ -1,7 +1,8 @@
 import "./App.css";
 import Navbar from "./Components/NavBar/Navbar";
 import perfil from "./assets/img/perfil.jpeg";
-import About from "./Components/About";
+import About from "./Components/About/About";
+import Projects from "./Components/Projects/Projects";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       </section>
 
       <About />
+      <Projects />
     </>
   );
 }
